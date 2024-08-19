@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 0;}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style:none;
+    margin: 0 33px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+  color: rgb(153,153,226);
+  font-size: 1.01 rem;
+}
+.left{
+    font-size:1rem ;
+    margin: 30px 300px 30px 0px;
+
+}
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px 0px 300px;
+    height: 80vh;
+}
+.firstsection div >{
+    width: 30%;
+}
+.para{
+  text-align: right;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.sara{
+  text-align: left;
+  margin-top: 10px;
+
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 180vh;
+    margin-left: 300px;
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+.secondsection box{
+  margin-left: 100px;
+}
+.foot{
+  display: block;
+  padding-top: 0px;
+
+  margin-bottom: -75px !important;
+}
+.foot  a{
+  color: white;
+  text-decoration: none;
+  margin-left: 570px;
+  margin-top: 20px;
+  
+}
+.foot{
+  margin-top: 20px;
+}
+.foot  a:hover{
+  color: rgb(153,153,226);
+
+}
+.text{
+  margin-left: 585px;
+  font-size: small;
+}
+.text:hover{
+  color: rgb(153,153,226);
+  
+}
+
+.leftsection{
+    font-size: 2rem;
+    margin: 40px 0 100px 100px;
+}
+.rightsection img{
+width: 52%;
+    
+}
+.purple{
+    color: rgb(170,107,228);
+
+
+}
+.education{
+    display: flex;
+    align-items: center;
+    margin: 100px 400px 0 400px;
+    color: rgb(83, 23, 43);
+    text-shadow: 4px 4px 8px rgba(233, 228, 228, 0.7);
+}
+.ed{
+    display: flex;
+    align-items: center;
+    margin-left:300px;
+    margin-top: 100px;
+    margin-bottom: 0px; 
+}
+.edt{
+    margin: auto;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    
+}
+#element{
+    color: rgb(170,107,228);
+
+}
+.education-background{
+    background-image: url('images/Graduation-hat.webp'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    padding: 20px;
+    font-size: 18px;
+}  
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Starts from outside the left edge */
+    }
+    to {
+        transform: translateX(0); /* Ends at its final position */
+    }
+}
+
+/* Additional styling for the content */
+h1 {
+    font-weight: bold; /* Makes the text bold */
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow to the text */
+    display: inline-block; /* Ensures animation applies correctly */
+    animation: slideIn 2s ease-out forwards; /* Applies the sliding animation */
+}
+.contactdiv{
+    align-items: center;
+    margin-left: 320px;
+    
+}
+.abouttable{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.contacus{
+    margin-top: 20px;
+}
+.contacus table tr td a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+    }
+
+
+.contacus table tr td  a:hover{
+    color: rgb(153,153,226);
+  font-size: 1.01 rem;
+}
+.h2div{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+  
+  .fa-phone {
+    background: #ff6600;
+    color: white;
+    margin-left: 100px;
+  }
+  main hr{
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+  }
+  .text-gray{
+      color: white;
+  }
